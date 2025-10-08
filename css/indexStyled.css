@@ -147,7 +147,7 @@ svg {
   padding: 0px 20px;
   width: 100%;
   max-width: 960px;
-  height: 621px;
+  height: auto;
   box-sizing: border-box;
 
   display: flex;
@@ -156,10 +156,10 @@ svg {
 
 .section1 {
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   width: 100%;
   max-width: 920px;
-  height: 420px;
+  height: auto;
   box-sizing: border-box;
 
   border-bottom-style: solid;
@@ -168,12 +168,13 @@ svg {
 
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
 
 #aboutMe {
   width: 100%;
-  max-width: 345px;
-  height: 399px;
+  max-width: 520px;
+  height: auto;
 
   display: flex;
   flex-direction: column;
@@ -313,13 +314,15 @@ footer {
 }
 
 .spotify {
-  height: 400px;
+  height: auto;
+  min-height: 400px;
   width: 100%;
-  max-width: 300px;
+  max-width: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 15px;
 
   font-size: 18px;
   line-height: 24px;
