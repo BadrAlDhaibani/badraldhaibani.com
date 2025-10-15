@@ -30,6 +30,7 @@ header {
   border-bottom-style: solid;
   border-bottom-color: #D1D5DB;
   border-bottom-width: 1px;
+  z-index: 1000;
 
   display: flex;
   align-items: center;
