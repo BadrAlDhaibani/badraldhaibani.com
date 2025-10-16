@@ -193,7 +193,8 @@ header {
   color: #4B5563;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 20px;
 }
 
 .aboutMeIcon {
